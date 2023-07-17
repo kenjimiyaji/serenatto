@@ -53,14 +53,6 @@ input[type="checkbox"]:focus {
   background-color: var(--marrom-escuro);
 }
 
-/* #nivel-satisfacao {
-  color: red;
-} */
-
-/* .input-range::-webkit-appearance: {
-  background-color: var(--marrom-claro);
-} */
-
 #nivel-satisfacao::-webkit-slider-runnable-track {
   background-color: black;
 }
@@ -72,4 +64,15 @@ input[type="checkbox"]:focus {
 .icones {
   background-color: var(--marrom-claro);
   text-align: center;
+}
+
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-body-color: white;
+    --bs-body-color: white;
+  }
 }

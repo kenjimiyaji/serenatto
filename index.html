@@ -20,7 +20,7 @@
   </head>
 </head>
 
-<body>
+<body data-bs-theme="light">
 
   <header>
     <nav class="navbar-expand-lg navbar bg-body-tertiary fixed-top">
@@ -50,8 +50,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                    <label class="form-check-label" for="flexSwitchCheckDefault">Modo noturno</label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="modo-noturno">
+                    <label class="form-check-label" for="modo-noturno">Modo noturno</label>
                   </div>
                 </a>
               </li>
@@ -432,25 +432,23 @@
 
   </section>
 
-  <footer>
-    <div class="icones py-4">
-      <span class="fs-3 p-4">
-        <i class="bi bi-whatsapp"></i>
-      </span>
-      <span class="fs-3 p-4">
-        <i class="bi bi-instagram"></i>
-      </span>
-      <span class="fs-3 p-4">
-        <i class="bi bi-twitter"></i>
-      </span>      
+  <footer class="text-center icones">
+    <section class="container p-4 pb-0 mb-4">
+      <a class="btn fs-3" href="#!"><i class="bi bi-whatsapp"></i></a>
+      <a class="btn fs-3" href="#!"><i class="bi bi-instagram"></i></a>
+      <a class="btn fs-3" href="#!"><i class="bi bi-twitter"></i></a>
+    </section>
+    <div class="p-3 fw-bold fs-5">
+      2023 <i class="bi bi-c-circle"></i> Desenvolvido por kenJi | Projeto fictício sem fins comerciais.
     </div>
-    <p class="icones py-4 fw-bold">2023 © Desenvolvido por kenJi | Projeto fictício sem fins comerciais.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
-    
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>
